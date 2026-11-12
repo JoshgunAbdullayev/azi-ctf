@@ -1,0 +1,35 @@
+INTERNAL COMMUNICATIONS ARCHIVE
+================================
+Channel: #executive-ops (encrypted)
+Exported: 2026-02-15
+
+[2025-11-03 16:45] CFO -> CTO:
+  Cyprus route is working smoothly. Processing capacity increased
+  to 500K EUR/week through the new intermediary.
+
+[2025-11-10 09:12] CTO -> CFO:
+  ATMS flagged 3 transactions yesterday. I've adjusted the
+  monitoring thresholds to reduce false positives.
+
+[2025-11-15 14:30] CFO -> Board:
+  Q3 revenue projections exceeded by 340%. The "consulting fees"
+  from Apex have been properly allocated.
+
+[2025-12-01 11:00] CTO -> CFO:
+  New Seychelles routing active. Added Panama as backup.
+  Latency is higher but leaves less of a trail.
+
+[2025-12-20 08:45] CFO -> CTO:
+  Compliance team is asking questions about the CORP-112 account.
+  Handle it. Remind them about their NDAs.
+
+[2026-01-15 17:20] CTO -> ALL:
+  System audit scheduled for March. Ensure all override logs
+  are rotated before then. Standard procedure.
+
+[2026-02-10 10:30] CFO -> CTO:
+  Someone from internal audit has been running queries on our
+  offshore transfer records. Find out who and shut it down.
+
+ARCHIVE STATUS: SEALED
+ACCESS LEVEL: BOARD ONLY

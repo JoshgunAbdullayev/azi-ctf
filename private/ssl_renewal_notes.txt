@@ -1,0 +1,20 @@
+SSL Certificate Renewal Notes
+=============================
+Last renewed: 2026-01-05
+Expiry: 2027-03-15
+CA: Let's Encrypt (via certbot)
+
+Renewal command:
+  certbot renew --cert-name novabank.com.tr --deploy-hook "systemctl reload nginx"
+
+Certificate chain:
+  /etc/ssl/certs/novabank.crt (server cert)
+  /etc/ssl/certs/novabank-chain.crt (intermediate)
+  /etc/ssl/private/novabank.key (private key - chmod 600)
+
+HSTS configured: max-age=31536000; includeSubDomains
+OCSP stapling: enabled
+TLS versions: 1.2, 1.3 only
+Cipher suites: ECDHE-RSA-AES256-GCM-SHA384, ECDHE-RSA-AES128-GCM-SHA256
+
+Reminder: Set calendar event for 2027-02-15 to renew

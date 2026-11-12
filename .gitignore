@@ -1,0 +1,21 @@
+# Runtime-generated databases (auto-seeded on first request; keep out of git so they reset clean)
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+database.sqlite
+scoreboard/scoreboard.sqlite
+nb-id-recover-a3f9/act2.sqlite
+
+# PHP built-in server session files / temp
+sessions/
+*.tmp
+
+# OS cruft
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp

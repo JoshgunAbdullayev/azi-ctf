@@ -1,0 +1,35 @@
+NOVABANK HƏQİQİ SAHİBLİK QEYDLƏRİ
+===================================
+Qeydiyyat No   : NB-2023-04821
+Qeydiyyat Tarixi : 15.01.2023
+Qeydiyyat Adı   : NovaBank A.S.
+
+KORPORATIV STRUKTUR:
+- NovaBank A.S. (Türkiyə)
+  └── NB Holdings BV (Hollanda)
+      └── Apex Global Services Ltd (BVI)
+          └── Mediterranean Trade Co. (Malta)
+
+HƏQİQİ FAYDALANICI SAHİB (UBO):
+================================
+Ad Soyad    : Ahmet Yildiz
+SVN         : 123456*****
+Doğum Yeri  : Istanbul
+Ünvan       : [MƏXFİ - Təhlükəsizlik Səbəbilə]
+
+ƏLAQƏLİ HESABLAR:
+- CYP-8827134 (Cyprus) - Ahmet Yildiz
+- KYM-0044521 (Cayman Islands) - Apex Global Trust
+- SEY-3389012 (Seychelles) - NB Offshore Holdings
+- PNM-5567823 (Panama) - Mediterranean Ventures SA
+
+DELANDIRICILIK XÜLASƏSİ:
+=====================
+- Saxta BDDK icazəsi istifadə edildi (No: 48291 - eti barsiz)
+- TMSF zəmanəti yanıldıcı bəyan (lim itsiz sığorta iddiası)
+- Ponzi sxemi investisiya proqramı (aylıq %15-25 zəmanət)
+- Sistematik müştəri haqq tutulmaları
+- 45+ milyon TRY çirkli pul yuyulması (3 paravan şirkət)
+- Saxta bloq və marketinq ilə müştəri aldatması
+
+ADNSU11{ssrf_to_rce_exploit_chain_f13c}

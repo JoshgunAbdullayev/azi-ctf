@@ -1,0 +1,3 @@
+<FilesMatch "dashboard_view\.php$">
+    Deny from all
+</FilesMatch>

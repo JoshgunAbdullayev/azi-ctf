@@ -1,0 +1,38 @@
+# NovaBank Configuration Backup
+# Generated: 2026-01-10 03:00:01 UTC
+# Source: /etc/novabank/config.yml
+
+[database]
+engine = sqlite3
+path = /var/lib/novabank/database.sqlite
+journal_mode = wal
+foreign_keys = on
+busy_timeout = 5000
+
+[server]
+host = 0.0.0.0
+port = 443
+ssl_cert = /etc/ssl/certs/novabank.crt
+ssl_key = /etc/ssl/private/novabank.key
+max_connections = 500
+keep_alive = true
+
+[session]
+handler = file
+path = /tmp/sessions
+lifetime = 1440
+gc_probability = 1
+gc_divisor = 100
+
+[logging]
+level = INFO
+output = /var/log/novabank/app.log
+rotation = daily
+max_files = 30
+
+[backup]
+enabled = true
+schedule = 0 12 * * *
+path = /backups/
+retention_days = 90
+compression = gzip
