@@ -1,0 +1,113 @@
+[2026-01-15 08:00:01] [INFO] ========================================
+[2026-01-15 08:00:01] [INFO] NovaBank Core Banking System v3.2.1
+[2026-01-15 08:00:01] [INFO] Starting application...
+[2026-01-15 08:00:01] [INFO] ========================================
+[2026-01-15 08:00:01] [INFO] Configuration loaded: /etc/novabank/config.yml
+[2026-01-15 08:00:02] [INFO] Database connection established - SQLite3 v3.39.4
+[2026-01-15 08:00:02] [INFO] Session handler initialized (file-based)
+[2026-01-15 08:00:02] [INFO] CSRF token service active
+[2026-01-15 08:00:02] [INFO] Rate limiter started - max: 100 req/min
+[2026-01-15 08:00:03] [INFO] Application started successfully - Port: 443
+[2026-01-15 08:00:03] [INFO] SSL certificate verified - Expiry: 2027-03-15
+[2026-01-15 08:12:45] [INFO] GET /index.php - 200 OK - 12ms - IP: 85.102.34.67
+[2026-01-15 08:15:32] [INFO] GET /login.php - 200 OK - 8ms - IP: 85.102.34.67
+[2026-01-15 08:15:44] [INFO] POST /login.php - Auth attempt - customer_no: 10080045 - IP: 85.102.34.67
+[2026-01-15 08:15:44] [INFO] Authentication successful - customer_no: 10080045 - Session: sess_a8f3b2c1
+[2026-01-15 08:15:45] [INFO] GET /dashboard.php - 200 OK - 15ms - IP: 85.102.34.67
+[2026-01-15 08:22:10] [INFO] GET /transfer.php - 200 OK - 9ms - IP: 85.102.34.67
+[2026-01-15 08:22:35] [INFO] POST /transfer.php - Transfer: 1500.00 TRY - user_id: 37 - IP: 85.102.34.67
+[2026-01-15 08:22:35] [INFO] Transaction completed - tx_id: 1042 - Status: SUCCESS
+[2026-01-15 08:30:00] [INFO] GET /logout.php - Session destroyed - IP: 85.102.34.67
+[2026-01-15 09:45:12] [INFO] GET /index.php - 200 OK - 11ms - IP: 176.42.115.23
+[2026-01-15 09:45:30] [INFO] GET /bireysel.php - 200 OK - 10ms - IP: 176.42.115.23
+[2026-01-15 10:02:18] [INFO] GET /login.php - 200 OK - 7ms - IP: 31.145.77.92
+[2026-01-15 10:02:28] [WARNING] Failed login attempt - customer_no: test - IP: 31.145.77.92
+[2026-01-15 10:02:35] [WARNING] Failed login attempt - customer_no: admin - IP: 31.145.77.92
+[2026-01-15 10:02:42] [WARNING] Failed login attempt - customer_no: root - IP: 31.145.77.92
+[2026-01-15 10:02:48] [WARNING] Rate limit triggered for IP: 31.145.77.92
+[2026-01-15 12:00:00] [INFO] Scheduled task: Database backup started
+[2026-01-15 12:00:03] [INFO] Backup completed: /backups/novabank_20260115_120000.sql.gz (2.3MB)
+[2026-01-15 14:15:22] [INFO] GET /about.php - 200 OK - 8ms - IP: 88.231.45.110
+[2026-01-15 14:30:00] [INFO] Scheduled task: Session cleanup - Removed 23 expired sessions
+[2026-01-15 16:45:33] [INFO] POST /login.php - Auth attempt - customer_no: 10080045 - IP: 85.102.34.67
+[2026-01-15 16:45:33] [INFO] Authentication successful - customer_no: 10080045 - Session: sess_d4e5f6a7
+[2026-01-15 17:00:00] [INFO] Scheduled task: Daily transaction report generated
+[2026-01-15 23:59:59] [INFO] Daily stats: 847 requests | 12 auth attempts | 3 failures | 5 transfers
+
+[2026-01-20 08:00:01] [INFO] System restart - Maintenance complete
+[2026-01-20 08:00:02] [INFO] Database connection established - SQLite3 v3.39.4
+[2026-01-20 08:00:03] [INFO] Application started successfully - Port: 443
+[2026-01-20 09:12:00] [INFO] GET /index.php - 200 OK - 10ms - IP: 195.74.82.15
+[2026-01-20 09:22:17] [INFO] POST /login.php - Auth attempt - customer_no: 10052089 - IP: 195.74.82.15
+[2026-01-20 09:22:17] [INFO] Authentication successful - customer_no: 10052089 - Session: sess_b7c8d9e0
+[2026-01-20 09:22:18] [INFO] GET /dashboard.php - 200 OK - 14ms - IP: 195.74.82.15
+[2026-01-20 09:30:45] [INFO] GET /transfer.php - 200 OK - 8ms - IP: 195.74.82.15
+[2026-01-20 09:31:02] [INFO] POST /transfer.php - Transfer: 750.00 TRY - user_id: 125 - IP: 195.74.82.15
+[2026-01-20 09:31:02] [INFO] Transaction completed - tx_id: 1089 - Status: SUCCESS
+
+[2026-02-01 08:00:01] [INFO] ========================================
+[2026-02-01 08:00:01] [INFO] Monthly maintenance - February 2026
+[2026-02-01 08:00:01] [INFO] ========================================
+[2026-02-01 08:00:02] [INFO] Database optimization started
+[2026-02-01 08:00:05] [INFO] Database optimization completed - freed 12MB
+[2026-02-01 08:00:06] [INFO] Log rotation: app.log.1 archived (4.2MB)
+[2026-02-01 08:00:06] [INFO] Database connection established - SQLite3 v3.39.4
+[2026-02-01 08:00:07] [INFO] Application started successfully - Port: 443
+
+[2026-02-10 03:44:55] [WARNING] Suspicious activity detected - Multiple failed logins from IP: 192.168.1.105
+[2026-02-10 03:45:01] [WARNING] Failed login attempt - customer_no: administrator - IP: 192.168.1.105
+[2026-02-10 03:45:05] [WARNING] Failed login attempt - customer_no: admin - IP: 192.168.1.105
+[2026-02-10 03:45:09] [WARNING] Failed login attempt - customer_no: root - IP: 192.168.1.105
+[2026-02-10 03:45:12] [WARNING] Failed login attempt - customer_no: superadmin - IP: 192.168.1.105
+[2026-02-10 03:45:15] [WARNING] Failed login attempt - customer_no: yonetici - IP: 192.168.1.105
+[2026-02-10 03:45:18] [CRITICAL] Rate limit exceeded - IP: 192.168.1.105 blocked for 30 minutes
+[2026-02-10 03:45:18] [INFO] Security alert sent to: security@novabank.com.tr
+
+[2026-02-15 11:00:00] [INFO] System update: v3.2.0 -> v3.2.1-beta
+[2026-02-15 11:00:01] [INFO] Migration: Added account detail endpoints
+[2026-02-15 11:00:02] [INFO] Migration: Updated admin panel views
+[2026-02-15 11:00:03] [INFO] Restarting application...
+[2026-02-15 11:00:04] [DEBUG] Loading security modules...
+[2026-02-15 11:00:04] [DEBUG]   csrf_protection: enabled (token_len=32, samesite=strict)
+[2026-02-15 11:00:04] [DEBUG]   hmac_signing: enabled (algo=sha256, secret=adnsu7floor)
+[2026-02-15 11:00:04] [DEBUG]   rate_limiter: enabled (window=60s, max_req=100)
+[2026-02-15 11:00:04] [DEBUG]   session_handler: file-based (path=/tmp/sessions, gc=1440s)
+[2026-02-15 11:00:05] [INFO] All security modules loaded successfully
+[2026-02-15 11:00:05] [INFO] Application started successfully - Port: 443
+
+[2026-02-18 14:20:00] [INFO] GET /login.php - 200 OK - 7ms - IP: 10.0.2.15
+[2026-02-18 14:20:15] [INFO] POST /login.php - Auth attempt - customer_no: 10052089 - IP: 10.0.2.15
+[2026-02-18 14:20:15] [INFO] Authentication successful - customer_no: 10052089 - Session: sess_f1a2b3c4
+[2026-02-18 14:22:30] [INFO] GET /dashboard.php - 200 OK - 13ms - IP: 10.0.2.15
+[2026-02-18 14:22:31] [DEBUG] auth.validate: cno=10052089 hash=$2y$10$xK8rLm... status=OK sid=sess_f1a2b3c4
+[2026-02-18 14:22:31] [DEBUG] auth.legacy_compat: plaintext_fallback=EmreKaya2025! (DEPRECATED - remove in v3.3)
+[2026-02-18 14:25:00] [INFO] GET /transfer.php - 200 OK - 9ms - IP: 10.0.2.15
+[2026-02-18 14:28:33] [INFO] GET /logout.php - Session destroyed - IP: 10.0.2.15
+
+[2026-02-20 09:00:00] [INFO] Scheduled task: Weekly security scan started
+[2026-02-20 09:00:15] [INFO] Security scan: No vulnerabilities detected
+[2026-02-20 09:00:15] [INFO] Security scan: All dependencies up to date
+[2026-02-20 09:00:16] [INFO] Security scan completed - Status: CLEAN
+[2026-02-20 09:00:17] [DEBUG] Vault access token rotation - new seed: YTg0MzhkYTc4ZTY3OWY0NGE1Y2ZmOWU0NGViYWNmYmQ=
+[2026-02-20 10:30:22] [INFO] GET /index.php - 200 OK - 11ms - IP: 78.180.22.44
+[2026-02-20 10:30:45] [INFO] GET /blog/ - 200 OK - 9ms - IP: 78.180.22.44
+[2026-02-20 10:31:12] [INFO] GET /blog/dijital-bankacilik.php - 200 OK - 12ms - IP: 78.180.22.44
+[2026-02-20 14:00:00] [INFO] Scheduled task: Database backup started
+[2026-02-20 14:00:04] [INFO] Backup completed: /backups/novabank_20260220_140000.sql.gz (2.5MB)
+
+[2026-02-25 08:00:01] [INFO] Application started successfully - Port: 443
+[2026-02-25 09:15:00] [INFO] GET /login.php - 200 OK - 8ms - IP: 85.102.34.67
+[2026-02-25 09:15:12] [INFO] POST /login.php - Auth attempt - customer_no: 10080045 - IP: 85.102.34.67
+[2026-02-25 09:15:12] [INFO] Authentication successful - customer_no: 10080045 - Session: sess_e5f6a7b8
+[2026-02-25 09:15:13] [INFO] GET /dashboard.php - 200 OK - 14ms - IP: 85.102.34.67
+[2026-02-25 09:20:00] [INFO] POST /transfer.php - Transfer: 8500.00 TRY - user_id: 37 - IP: 85.102.34.67
+[2026-02-25 09:20:00] [INFO] Transaction completed - tx_id: 1156 - Status: SUCCESS
+[2026-02-25 12:00:00] [INFO] Scheduled task: Session cleanup - Removed 15 expired sessions
+[2026-02-25 23:59:59] [INFO] Daily stats: 1203 requests | 18 auth attempts | 2 failures | 8 transfers
+
+[2026-02-27 08:00:01] [INFO] Application started successfully - Port: 443
+[2026-02-27 08:00:02] [INFO] All services running - System status: HEALTHY
+
+[2026-03-02 10:14:09] [INFO] Deploy: identity-recovery service re-enabled -> /nb-id-recover-a3f9/forgot.php
+[2026-03-02 10:14:09] [DEBUG] auth.recovery: mail-relay QA log active (/nb-id-recover-a3f9/mail-log.php) [host-header validation: TODO - NBK-5107]
+[2026-03-02 10:14:10] [DEBUG] auth.recovery: downstream MFA gateway=/nb-mfa-gw-7c21 trusts edge header X-MFA-Verified (proxy-set) [hardening pending]

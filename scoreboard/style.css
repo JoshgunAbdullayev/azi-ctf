@@ -1,0 +1,19 @@
+:root{--bg:#0a0e14;--panel:#111823;--line:#1f2b3a;--fg:#c9d6e2;--dim:#7a8a9c;--acc:#00e5a0;--bad:#ff4d6d;--warn:#ffb020}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.5 ui-monospace,Consolas,monospace}
+header{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;padding:12px 20px;background:var(--panel);border-bottom:1px solid var(--acc)}
+.brand{font-weight:700;color:var(--acc);font-size:18px}.brand span{color:var(--dim);margin:0 4px}
+nav a{color:var(--fg);text-decoration:none;margin-left:16px;padding:4px 0}nav a.on,nav a:hover{color:var(--acc);border-bottom:1px solid var(--acc)}
+main{max-width:1100px;margin:20px auto;padding:0 16px}h1,h2{color:var(--acc);font-weight:600}h2{margin-top:28px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:14px}.card.solved{border-color:var(--acc)}
+.card h3{margin:0 0 6px;font-size:16px}.meta{color:var(--dim);font-size:13px;margin-bottom:8px}
+.tag{display:inline-block;padding:1px 8px;border-radius:10px;font-size:12px;border:1px solid var(--line);margin-right:4px}
+.Easy{color:#5cd65c}.Medium{color:var(--warn)}.Hard{color:#ff7a45}.Expert{color:var(--bad)}
+input,button,select{background:#0d131c;color:var(--fg);border:1px solid var(--line);border-radius:4px;padding:8px;font:inherit}
+input[type=text],input[type=password]{width:100%}button{background:var(--acc);color:#04120c;border:0;cursor:pointer;font-weight:700}button.sec{background:#243245;color:var(--fg)}
+form.inline{display:flex;gap:6px}form.inline input{flex:1}
+table{width:100%;border-collapse:collapse;background:var(--panel)}th,td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left}th{color:var(--dim);font-weight:600}
+.alert{padding:10px 14px;border-radius:4px;margin:12px 0;border:1px solid}.ok{border-color:var(--acc);color:var(--acc)}.err{border-color:var(--bad);color:var(--bad)}.warn{border-color:var(--warn);color:var(--warn)}
+.fb{color:var(--bad);font-weight:700}.box{max-width:380px;margin:30px auto;background:var(--panel);padding:22px;border:1px solid var(--line);border-radius:6px}.box label{display:block;margin:10px 0 4px;color:var(--dim)}
+.scroll{overflow-x:auto}
+@media(max-width:600px){nav a{margin:0 10px 0 0}}

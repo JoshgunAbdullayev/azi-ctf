@@ -1,0 +1,16 @@
+# Session Key Rotation Log
+# Exported: 2026-02-01 00:00:00
+
+[rotation_2026-01-01]
+old_key = e4a8b2c1f7d3e6a9b5c8d2f4a1e7b3c6
+new_key = f7c2d9e4a6b1c8d3e5f2a7b4c9d1e6f3
+rotated_by = system
+sessions_migrated = 142
+
+[rotation_2026-02-01]
+old_key = f7c2d9e4a6b1c8d3e5f2a7b4c9d1e6f3
+new_key = a3b7c1d5e9f2a6b8c4d7e1f5a9b3c6d8
+rotated_by = system
+sessions_migrated = 198
+
+# Next rotation scheduled: 2026-03-01 00:00:00

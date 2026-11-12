@@ -1,0 +1,13 @@
+# NovaBank Security Policy
+# https://novabank.com.tr/.well-known/security.txt
+
+Contact: security@novabank.com.tr
+Encryption: https://novabank.com.tr/pgp-key.txt
+Acknowledgments: https://novabank.com.tr/hall-of-fame
+Policy: https://novabank.com.tr/security-policy
+Preferred-Languages: az, tr, en
+Canonical: https://novabank.com.tr/.well-known/security.txt
+Expires: 2027-01-01T00:00:00.000Z
+
+# Pen-test scope: *.novabank.com.tr
+# Bug bounty: active (see /security-policy)

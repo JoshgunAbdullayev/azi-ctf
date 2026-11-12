@@ -1,0 +1,32 @@
+MASAK COMPLIANCE ALERT
+======================
+Alert ID: MASAK-NB-2026-047
+Priority: URGENT
+Generated: 2026-02-18 09:30:00
+
+SOURCE: Automated Transaction Monitoring System (ATMS v4.1)
+
+TRIGGER: Multiple threshold-adjacent deposits detected across
+linked corporate accounts within a 72-hour window.
+
+AFFECTED ACCOUNTS:
+  - NBK-CORP-044: 12 deposits totaling 119,640 TRY (48 hours)
+  - NBK-CORP-089: 8 deposits totaling 79,120 TRY (48 hours)
+  - NBK-CORP-112: 15 deposits totaling 149,700 TRY (72 hours)
+
+SAR (Suspicious Activity Report) STATUS:
+  Required: YES
+  Filed: NO (suppressed by admin override - see audit log)
+  Override authorized by: [REDACTED - CFO level]
+
+COMPLIANCE VIOLATION:
+  MASAK Regulation 5549, Article 4 - Failure to file SAR
+  Penalty: Up to 2,000,000 TRY per violation
+
+ACTION REQUIRED:
+  1. Immediately file pending SARs
+  2. Freeze all three corporate accounts
+  3. Notify MASAK within 10 business days
+  4. Preserve all related transaction records
+
+ALERT CLASSIFICATION: CONFIDENTIAL

@@ -1,0 +1,39 @@
+BACKUP MANIFEST
+===============
+System: NovaBank Production
+Schedule: Daily incremental, Weekly full
+Retention: 90 days
+Encryption: AES-256-GCM
+
+LATEST FULL BACKUP
+------------------
+  Date:       2026-02-20 02:00:00 UTC
+  Type:       Full
+  Size:       847 MB (compressed)
+  Checksum:   sha256:e4a8f2c1d7b3...
+  Location:   /backups/full/nb_20260220_full.tar.gz.enc
+  Status:     VERIFIED
+
+INCREMENTAL BACKUPS (last 7 days)
+----------------------------------
+  2026-02-21  12.3 MB  nb_20260221_incr.tar.gz.enc  VERIFIED
+  2026-02-20  15.1 MB  nb_20260220_incr.tar.gz.enc  VERIFIED
+  2026-02-19   8.7 MB  nb_20260219_incr.tar.gz.enc  VERIFIED
+  2026-02-18  22.4 MB  nb_20260218_incr.tar.gz.enc  VERIFIED
+  2026-02-17   9.1 MB  nb_20260217_incr.tar.gz.enc  VERIFIED
+  2026-02-16  11.8 MB  nb_20260216_incr.tar.gz.enc  VERIFIED
+  2026-02-15  34.6 MB  nb_20260215_incr.tar.gz.enc  VERIFIED
+
+DATABASE SNAPSHOTS
+------------------
+  Latest:     nb_db_20260221.sqlite.enc (2.5 MB)
+  Previous:   nb_db_20260220.sqlite.enc (2.4 MB)
+
+RECOVERY TEST
+-------------
+  Last test:     2026-02-01
+  RTO achieved:  4 minutes 12 seconds
+  RPO achieved:  < 1 hour
+  Result:        PASS
+
+NEXT FULL BACKUP: 2026-02-27 02:00:00 UTC

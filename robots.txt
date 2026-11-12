@@ -1,0 +1,20 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /private/
+Disallow: /logs/
+Disallow: /includes/
+Disallow: /uploads/
+Disallow: /nbs-core/
+Disallow: /backups/
+Disallow: /debug-panel/
+Disallow: /api/v2/
+Disallow: /nb-sec-audit-3d7f/
+Disallow: /nb-id-recover-a3f9/
+Disallow: /nb-mfa-gw-7c21/
+Disallow: /nb-cors-edge-5b8e/
+Disallow: /nb-jwks-vault-9d4c/
+Disallow: /scoreboard/admin.php
+
+Allow: /README.md
+
+Sitemap: /sitemap.xml

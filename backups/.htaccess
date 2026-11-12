@@ -1,0 +1,8 @@
+# Backup directory - restricted access
+# TODO: This .htaccess should block all access but the rule is misconfigured
+
+# Order deny,allow
+# Deny from all
+
+# Temporarily disabled for maintenance - 2026-02-15
+# Re-enable after backup migration is complete
