@@ -1,7 +1,7 @@
 # Scoreboard integration note
 
 - Main URL: `http://<host>:<port>/scoreboard/` (challenges); `/scoreboard/scoreboard.php` (live board); `/scoreboard/team.php` (my team); `/scoreboard/admin.php` (admin).
-- Admin password: constant `SB_ADMIN_PASSWORD` in `scoreboard/config.php` (default `Adnsu-SB-Admin#2026!x7`) - CHANGE IT before the event.
+- Admin password: constant `SB_ADMIN_PASSWORD` in `scoreboard/config.php` (default `<SB_ADMIN_PASSWORD env>`) - CHANGE IT before the event.
 - Admin can: list teams/submissions, reset or delete a team, close/re-open (freeze) the competition.
 - DB: `scoreboard/scoreboard.sqlite`, auto-created on first request. Delete it to wipe all scoreboard state. Main `database.sqlite` is untouched.
 - Scoring: Easy 50 / Medium 150 / Hard 300 / Expert 700 (`SB_TIER_POINTS` in config.php). Wrong-submission rate limit: 8 per 60s per team.

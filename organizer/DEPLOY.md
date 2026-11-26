@@ -63,7 +63,7 @@ Tam təzə başlanğıc üçün (məs. məşq raundundan sonra, əsl tədbirdən
 
 ### Admin parolunu DƏYİŞİN
 
-Admin parolu `scoreboard/config.php` faylındakı `SB_ADMIN_PASSWORD` konstantıdır. **Default dəyər `Adnsu-SB-Admin#2026!x7`-dir — tədbirdən ƏVVƖL mütləq dəyişdirin.** Faylı açıb konstantı yeni, güclü bir parolla əvəz edin.
+Admin parolu `scoreboard/config.php` faylındakı `SB_ADMIN_PASSWORD` konstantıdır. **Default dəyər `<SB_ADMIN_PASSWORD env>`-dir — tədbirdən ƏVVƖL mütləq dəyişdirin.** Faylı açıb konstantı yeni, güclü bir parolla əvəz edin.
 
 ### Admin panelin imkanları
 
